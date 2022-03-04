@@ -80,9 +80,14 @@ export default function Home() {
               pb="6px"
               pr="20px"
             >
-              <Text pl={{ base: "20px" }} w="100%" color={"black"}>
-                +234-80-3094-7177
-              </Text>{" "}
+              <Link
+                href="tel:+23480-3094-7177"
+                pl={{ base: "20px" }}
+                w="100%"
+                color={"#007bff"}
+              >
+                +23480-3094-7177
+              </Link>{" "}
               <AiOutlinePhone />
             </HStack>
             <HStack
@@ -496,7 +501,7 @@ export default function Home() {
               Oct 2021 - current
             </Text>
 
-            <UnorderedList pr="20px" pl="40px">
+            <UnorderedList mb="25px" pr="20px" pl="40px">
               <ListItem>
                 Assisted in converting an old website (https://eespace.com.ng)
                 to new (https://staging.eespace.com.ng)
@@ -511,17 +516,20 @@ export default function Home() {
               <ListItem>Consumption of API’s</ListItem>
             </UnorderedList>
 
-            <Text mt="50px" fontSize={"2xl"} fontWeight="500" pl="20px">
+            <Text fontSize={"2xl"} fontWeight="500" pl="20px">
               IT Support Officer
             </Text>
             <Text fontSize={"xl"} fontWeight="400" pr="150px" pl="20px">
               Lucky Fibres Limited
             </Text>
+            <Text fontSize={"xl"} fontWeight="400" pl="20px">
+              Mar 2020 - Oct 2021
+            </Text>
             <Text mb="15px" fontSize={"xl"} fontWeight="400" pl="20px">
-              Mar 2020 - Oct 2021 / Ikorodu, Lagos, Nigeria
+              Ikorodu, Lagos, Nigeria
             </Text>
 
-            <UnorderedList pr="20px" pl="40px">
+            <UnorderedList mb="25px" pr="20px" pl="40px">
               <ListItem>Network, software and hardware maintenance</ListItem>
               <ListItem>
                 Providing first-line support at every official computer users’
@@ -540,7 +548,7 @@ export default function Home() {
               <ListItem>Network troubleshooting</ListItem>
             </UnorderedList>
 
-            <Text
+            {/* <Text
               mt="50px"
               fontSize={"2xl"}
               fontWeight="500"
@@ -550,7 +558,7 @@ export default function Home() {
               IT Support Officer
             </Text>
             <Text fontSize={"xl"} fontWeight="400" pr="150px" pl="20px">
-              Fidson Healthcare PLC
+            
             </Text>
             <Text
               mb="15px"
@@ -559,7 +567,20 @@ export default function Home() {
               pr="150px"
               pl="20px"
             >
-              June 2017 - Dec 2017 / 268, Ikorodu Road, Obanikoro
+               / 
+            </Text> */}
+
+            <Text fontSize={"2xl"} fontWeight="500" pl="20px">
+              IT Support Officer
+            </Text>
+            <Text fontSize={"xl"} fontWeight="400" pr="150px" pl="20px">
+              Fidson Healthcare PLC
+            </Text>
+            <Text fontSize={"xl"} fontWeight="400" pl="20px">
+              June 2017 - Dec 2017
+            </Text>
+            <Text mb="15px" fontSize={"xl"} fontWeight="400" pl="20px">
+              268, Ikorodu Road, Obanikoro
             </Text>
 
             <UnorderedList mb="40px" pr="20px" pl="40px">
