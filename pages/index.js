@@ -540,7 +540,7 @@ export default function Home() {
                 environment
               </ListItem>
               <ListItem>
-                Providing technical support via phone, email and remotely
+                Providing technical support physically and remotely
               </ListItem>
               <ListItem>
                 Installation and configuration of Routers, Switches and cabling
