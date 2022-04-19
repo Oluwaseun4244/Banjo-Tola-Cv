@@ -13,7 +13,7 @@ import { BiLocationPlus, BiWorld } from "react-icons/bi";
 import { AiFillGithub, AiOutlinePhone } from "react-icons/ai";
 import { FiTwitter } from "react-icons/fi";
 import skillsData from "../data/skills.json";
-import Skills from "../components/skills";
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
