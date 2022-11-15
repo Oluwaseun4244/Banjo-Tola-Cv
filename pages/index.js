@@ -225,7 +225,7 @@ export default function Home() {
                 fontSize="lg"
                 // fontWeight="bold"
               >
-                2015 - 2017
+                Class of 2017
               </Text>
             </HStack>
             <HStack textAlign={{ base: "left", md: "right" }} mb="8px" w="100%">
@@ -241,7 +241,7 @@ export default function Home() {
               </Text>
             </HStack>
 
-            <HStack
+            {/* <HStack
               textAlign={{ base: "left", md: "right" }}
               mt="30px"
               mb="8px"
@@ -295,8 +295,8 @@ export default function Home() {
               >
                 2012 - 2014
               </Text>
-            </HStack>
-            <HStack textAlign={{ base: "left", md: "right" }} mb="8px" w="100%">
+            </HStack> */}
+            {/* <HStack textAlign={{ base: "left", md: "right" }} mb="8px" w="100%">
               <Text
                 pr="20px"
                 pl={{ base: "20px" }}
@@ -307,7 +307,7 @@ export default function Home() {
               >
                 Omu Ijebu
               </Text>
-            </HStack>
+            </HStack> */}
 
             <HStack
               textAlign={{ base: "left", md: "right" }}
@@ -328,7 +328,7 @@ export default function Home() {
               </Text>
             </HStack>
             {skillsData.map((item, i) => (
-              <Skills key={i} item={item}/>
+              <Skills key={i} item={item} />
             ))}
 
             <HStack
@@ -383,21 +383,19 @@ export default function Home() {
               fontSize="2xl"
               fontWeight="bold"
             >
-              CAREER OBJECTIVE
+              SUMMARY
             </Text>
 
             <Text
               pr={{ base: "20px", md: "150px" }}
               pl={{ base: "20px", md: "20px" }}
             >
-              I am an insightful and diligent IT Professional with with less
-              than a year experience as a software developer, I am very
-              comfortable using ReactJS, NextJS, Styled Component, Chakra UI and Bootstrap styling.{" "}
-              <br />
-              <br />I have a strong desire to make a positive impact in any
-              organization. I have excellent reputation for learning very fast,
-              willing to learn, unlearn and relearn while delivering effective
-              services.
+              Banjo Tola is a focused software professional with great
+              communication skills and expertise in various technical platforms
+              who understands and meets both client and employer needs and
+              develops highly functional, robust and yet, easy-to-use
+              applications. Excels as hands-on developer and oversees work of
+              junior software colleague(s).
             </Text>
 
             <Text
@@ -413,27 +411,39 @@ export default function Home() {
             </Text>
 
             <Text fontSize={"2xl"} fontWeight="500" pl="20px">
-              Frontend developer
+              Fullstack developer
             </Text>
             <Text fontSize={"xl"} fontWeight="400" pl="20px">
               ITskillsCenter
             </Text>
             <Text mb="15px" fontSize={"xl"} fontWeight="400" pl="20px">
-              Oct 2021 - current
+              Oct 2021 - present
             </Text>
 
             <UnorderedList mb="25px" pr="20px" pl="40px">
               <ListItem>
-                Assisted in converting an old website (https://eespace.com.ng)
-                to new (https://staging.eespace.com.ng)
+                Review codes and ensure quality of designs and implementations,
+                and advocate clarity within the team.
+              </ListItem>
+              <ListItem>
+                Implement new features and maintenance of existing ones to
+                improve the performance of web applications.
+              </ListItem>
+              <ListItem>
+                Contribute ideas and suggestions in team meetings and delivered
+                updates on deadlines, designs, and enhancements.
               </ListItem>
               <ListItem>
                 Building both desktop and mobile friendly interface web apps
               </ListItem>
               <ListItem>
-                Review codes and ensure quality of designs and implementations,
-                and advocating clarity within the team
+                Developed functional databases, applications, and servers to
+                support websites on the backend.
               </ListItem>
+              <ListItem>
+              Analyze existing software implementations to identify areas requiring improvement and divide features into epics and tasks to ease the implementation of new features.
+              </ListItem>
+
               <ListItem>Consumption of API’s</ListItem>
             </UnorderedList>
 
@@ -451,22 +461,16 @@ export default function Home() {
             </Text>
 
             <UnorderedList mb="25px" pr="20px" pl="40px">
-              <ListItem>Network, software and hardware maintenance</ListItem>
-              <ListItem>
-                Providing first-line support at every official computer users’
-                desk
-              </ListItem>
-              <ListItem>
-                Configuring and supporting company’s computers in LAN/WAN
-                environment
-              </ListItem>
-              <ListItem>
-                Providing technical support physically and remotely
-              </ListItem>
-              <ListItem>
-                Installation and configuration of Routers, Switches and cabling
-              </ListItem>
-              <ListItem>Network troubleshooting</ListItem>
+              <ListItem>Offered new customer training to reduce frustration and improve customer satisfaction.</ListItem>
+              <ListItem>Created help desk tickets, troubleshot, and resolved desktop issues.</ListItem>
+              <ListItem>Determined hardware and network system issues using proactive troubleshooting techniques.</ListItem>
+              <ListItem>Prepared new computers and mobile devices according to internal policies on standardized software and security deployments.</ListItem>
+              <ListItem>Answered questions and provided information to customers about new software or hardware.</ListItem>
+              <ListItem>Updated software to safeguard against security flaws.</ListItem>
+              <ListItem>Provided Tier 1 IT support to non-technical internal users through deskside support services.</ListItem>
+              <ListItem>Configured hardware and granted system permissions to new employees.</ListItem>
+             
+        
             </UnorderedList>
 
             {/* <Text

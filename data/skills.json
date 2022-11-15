@@ -3,19 +3,22 @@
         "skill": "ReactJS"
     },
     {
+        "skill": "React Native"
+    },
+    {
         "skill": "NextJS"
     },
     {
         "skill": "Redux"
     },
     {
+        "skill": "Typescript"
+    },
+    {
         "skill": "Laravel"
     },
     {
         "skill": "Rest API"
-    },
-    {
-        "skill": "GraphQL"
     },
     {
         "skill": "MysQL"
